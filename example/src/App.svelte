@@ -1,15 +1,27 @@
 <script>
   import logo from "./assets/svelte.png";
   import Counter from "./lib/Counter.svelte";
-  import Image from "svelte-placeholder";
+  import Image from "../../src/Image.svelte";
 </script>
 
 <main>
   <Image
+    src="https://i.imgur.com/2F3Al82.jpeg"
     width="200"
     height="200"
-    src="https://i.imgur.com/BfZCBXY.jpeg"
-    placeholder="https://i.imgur.com/kYHhXXf.png"
+    placeholder="skeleton"
+  />
+  <Image
+    width="200"
+    height="200"
+    src="https://images.unsplash.com/photo-1653745445937-2928f925919d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+    placeholder="skeleton"
+  />
+  <Image
+    width="200"
+    height="200"
+    src="https://images.unsplash.com/photo-1653857329139-b233fbf7795a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+    placeholder="skeleton"
   />
   <h1>Hello world!</h1>
 

@@ -14,6 +14,7 @@
     "vite": "^2.9.9"
   },
   "dependencies": {
-    "svelte-placeholder": "0.0.4"
+    "svelte-placeholder": "0.0.4",
+    "svelte-skeleton": "^1.3.1"
   }
 }

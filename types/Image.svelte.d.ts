@@ -3,7 +3,7 @@ import type { SvelteComponentTyped } from "svelte";
 
 export interface ImageProps {
   /**
-   * @default undefined
+   * @default "skeleton"
    */
   placeholder?: string;
 
@@ -26,6 +26,16 @@ export interface ImageProps {
    * @default undefined
    */
   height?: string | number;
+
+  /**
+   * @default "lazy"
+   */
+  loading?: "lazy" | "eager";
+
+  /**
+   * @default "browser"
+   */
+  darkMode?: "browser" | true | false;
 }
 
 export default class Image extends SvelteComponentTyped<ImageProps, {}, {}> {}
