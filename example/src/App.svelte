@@ -1,7 +1,6 @@
 <script>
-  import logo from "./assets/svelte.png";
   import Counter from "./lib/Counter.svelte";
-  import Image from "../../src/Image.svelte";
+  import Image from "svelte-placeholder";
 </script>
 
 <main>
@@ -23,6 +22,7 @@
     src="https://images.unsplash.com/photo-1653857329139-b233fbf7795a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
     placeholder="skeleton"
   />
+
   <h1>Hello world!</h1>
 
   <Counter />
