@@ -1,5 +1,60 @@
 # svelte-placeholder
 
+Image component for SvelteJS that you can use placeholders with. You can use any image as a placeholder, if not set, it'll use a skeleton animation.
+
+## Usage
+
+```
+npm i svelte-placeholder
+# or
+yarn add svelte-placeholder
+```
+
+```js
+import Image from "svelte-placeholder";
+
+<Image src="some-image" placeholder="some-placeholder" />;
+```
+
+### Props
+
+```ts
+  /**
+   * @default "skeleton"
+   */
+  placeholder?: string;
+
+  /**
+   * @default undefined
+   */
+  src: string;
+
+  /**
+   * @default undefined
+   */
+  alt?: string;
+
+  /**
+   * @default undefined
+   */
+  width?: string | number;
+
+  /**
+   * @default undefined
+   */
+  height?: string | number;
+
+  /**
+   * @default "lazy"
+   */
+  loading?: "lazy" | "eager";
+
+  /**
+   * @default "browser"
+   */
+  darkMode?: "browser" | true | false;
+```
+
 ## Contributing
 
 1. Fork this repository
